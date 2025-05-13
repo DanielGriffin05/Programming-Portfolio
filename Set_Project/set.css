@@ -1,0 +1,94 @@
+body, button, select, input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+  cursor: pointer;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#menu-view > article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+#details-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 14pt;
+}
+
+#board {
+  border: solid;
+  border-color: black;
+  border-width: 5pt;
+  border-top: 0pt;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-evenly;
+
+}
+
+.card > img {
+  height: 85%;
+}
+
+.card {
+  height: 95px;
+  width: 220px;
+  border: solid;
+  border-width: 0.35em;
+  border-radius: 1em;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card > p {
+  font-style: bold;
+  font-size: 16pt;
+}
+
+.selected {
+  box-shadow: 6px 6px #636363;
+}
+
+.hide-imgs > img {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
