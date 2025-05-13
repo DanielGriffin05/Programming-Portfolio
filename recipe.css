@@ -1,0 +1,50 @@
+h1{
+    background-color: lightgray;
+    color: #A4A400;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+
+h2{
+    background-color: lightgray;
+    color: #A4A400;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, sans-serif;
+    font-size: 11px;
+}
+
+p{
+    font-family: "Roboto Mono", serif;
+    text-align: right;
+    max-width: 30ch;
+}
+
+a{
+    color: #A4A400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-image: url(pieBullet.jpg);
+}
+
+.box{
+    background-color: #FFFFA8;
+    font-style: italic;
+    padding: 10px;
+    margin: 20px;
+}
+
+.line{
+    border-bottom: 1px solid #888;
+}
